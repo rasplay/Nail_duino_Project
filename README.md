@@ -2,9 +2,7 @@
 Nail Duino is tiny type Arduino Uno compatible.<p>
 Nail duino is upload arduino uno firmware through the raspberry-pi. 
 
-![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino-e1425693930727.jpg)
-
-![Alt Text](http://www.rasplay.org/wp-content/uploads/KakaoTalk_20150307_104915906-e1425694074851.jpg)
+![Alt Text](http://www.rasplay.org/wp-content/uploads/nailduino_1.jpg)
 
 <p>1) nail duino is have arduino uno all gpio pin and tiny smd atmega328p.</p>
 <p>2) nail duino power is used  that 3.3V ~ 5.0V.</p>
