@@ -1,4 +1,4 @@
-# Nail_duino : Simple Arduino for raspberrypi
+# Nail_duino : Simple and tiny Arduino Uno for IoT device.
 Nail Duino is tiny type Arduino Uno compatible.<p>
 Nail duino is upload arduino uno firmware through the raspberry-pi. 
 
