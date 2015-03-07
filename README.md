@@ -1,4 +1,4 @@
-# Nail_duino
+# Nail_duino : Simple Arduino for raspberrypi
 Nail Duino is tiny type Arduino Uno compatible.<p>
 Nail duino is upload arduino uno firmware through the raspberry-pi. 
 
@@ -11,7 +11,7 @@ Nail duino is upload arduino uno firmware through the raspberry-pi.
 <p>3) nail duino connect direct on the brad-board .</p>
 <p>4) nail duino can is used with connect on the various OS that microsoft window , linux , mac-osx, raspberrypi.</p>
 
-nail_duino : Simple Arduino for raspberrypi
+
 
 pi@openmake ~ $ git clone https://github.com/rasplay/nail_duino
 
