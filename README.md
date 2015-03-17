@@ -11,7 +11,7 @@ Nail duino is upload arduino uno bootloader through the raspberry-pi.
 <p>3) nail duino connect direct on the brad-board .</p>
 <p>4) nail duino can is used with connect on the various OS that microsoft window , linux , mac-osx, raspberrypi.</p>
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+[![ScreenShot](http://i1.wp.com/www.rasplay.org/wp-content/uploads/image1.jpg)](https://www.youtube.com/watch?v=vQyZlNaWGlg)
 
 pi@openmake ~ $ git clone https://github.com/rasplay/nail_duino
 
