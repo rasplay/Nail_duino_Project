@@ -94,7 +94,7 @@ fi
 echo "OK"
 
 echo -n "  Arduino IDE: "
-if [ ! -f /usr/share/arduino/hardware/arduino/programmers.txt ]; then
+if [ ! -f /usr/share/arduino/hardware/arduino/avr/programmers.txt ]; then
   echo "Not installed. Please install it first"
   exit 1
 fi
