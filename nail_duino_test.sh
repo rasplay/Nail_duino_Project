@@ -49,7 +49,7 @@ sudo apt-get -t jessie install avr-libc libjssc-java libastylej-jni libcommons-e
 
 git clone https://github.com/NicoHood/Arduino-IDE-for-Raspberry
 
-cd https://github.com/NicoHood/Arduino-IDE-for-Raspberry
+cd Arduino-IDE-for-Raspberry
 
 sudo dpkg -i arduino-core_1.6.3_all.deb arduino_1.6.3_all.deb
 
