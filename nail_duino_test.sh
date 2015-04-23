@@ -104,7 +104,7 @@ echo "Fetching files:"
 for file in boards.txt programmers.txt avrsetup ; do
   echo "  $file"
   rm -f $file
-  wget -q http://rasplay.org/rpi/m_duino/$file
+  wget -q http://rasplay.org/rpi/m_duino/nail_duino/$file
 done
 
 echo "Replacing/updating files:"
