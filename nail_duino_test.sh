@@ -43,9 +43,9 @@ sudo echo 'KERNEL=="ttyAMA0", SYMLINK+="ttyS0",GROUP="dialout",MODE:=0666' >> /e
 
 sudo apt-get update; sudo apt-get upgrade -y
 
-sudo apt-get -t jessie install gcc-avr
+sudo apt-get -t jessie install gcc-avr -y
 
-sudo apt-get -t jessie install avr-libc libjssc-java libastylej-jni libcommons-exec-java libcommons-httpclient-java libcommons-logging-java libjmdns-java libjna-java libjsch-java
+sudo apt-get -t jessie install avr-libc libjssc-java libastylej-jni libcommons-exec-java libcommons-httpclient-java libcommons-logging-java libjmdns-java libjna-java libjsch-java -y
 
 git clone https://github.com/NicoHood/Arduino-IDE-for-Raspberry
 
