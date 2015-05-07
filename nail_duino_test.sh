@@ -45,9 +45,7 @@ sudo mv 85-paperduinopi.rules /etc/udev/rules.d/85-paperduinopi.rules
 
 sudo apt-get update; sudo apt-get upgrade -y
 
-sudo apt-get -t jessie install gcc-avr -y
-
-sudo apt-get -t jessie install avr-libc libjssc-java libastylej-jni libcommons-exec-java libcommons-httpclient-java libcommons-logging-java libjmdns-java libjna-java libjsch-java -y
+sudo apt-get -t jessie install libjssc-java libastylej-jni libcommons-exec-java libcommons-httpclient-java libcommons-logging-java libjmdns-java libjna-java libjsch-java -y
 
 git clone https://github.com/NicoHood/Arduino-IDE-for-Raspberry
 
@@ -141,7 +139,6 @@ else
 fi
 
 doBackup /usr/share/arduino/hardware/arduino/avr boards.txt
-
 doBackup /usr/share/arduino/hardware/arduino/avr programmers.txt
 
 sudo avrdude -p m328p -c gpio
