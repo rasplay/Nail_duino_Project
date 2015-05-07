@@ -39,7 +39,6 @@ sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
 "
 
-#sudo echo 'KERNEL=="ttyAMA0", SYMLINK+="ttyS0",GROUP="dialout",MODE:=0666' >> /etc/udev/rules.d/85-paperduinopi.rules
 sudo echo 'KERNEL=="ttyAMA0", SYMLINK+="ttyS0",GROUP="dialout",MODE:=0666' >> 85-paperduinopi.rules
 sudo mv 85-paperduinopi.rules /etc/udev/rules.d/85-paperduinopi.rules
 
