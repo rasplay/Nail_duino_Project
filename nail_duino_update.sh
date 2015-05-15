@@ -34,6 +34,5 @@ sudo apt-get remove -y arduino arduino-core
 sudo dpkg -i arduino-core_1.6.3_all.deb arduino_1.6.3_all.deb
 
 echo "All Done."
-echo "Check and reboot now to apply changes."
-echo 'You must reboot'
+echo 'Thax For Nail Duino on the Raspberrypi'
 exit 0
