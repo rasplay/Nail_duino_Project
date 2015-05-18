@@ -33,6 +33,12 @@ sudo apt-get remove -y arduino arduino-core
 
 sudo dpkg -i arduino-core_1.6.3_all.deb arduino_1.6.3_all.deb
 
+cd /usr/share/arduino/hardware/arduino/avr
+
+sudo rm programmers.txt
+
+sudo wget http://rasplay.org/rpi/m_duino/nail_duino/programmers.txt
+
 echo "All Done."
 echo 'Thax For Nail Duino on the Raspberrypi'
 exit 0
