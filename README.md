@@ -20,3 +20,7 @@ pi@openmake ~ $ cd nail_duino
 pi@openmake ~ $ chmod 744 nail_duino.sh
 
 pi@openmake ~ $ sudo ./nail_duino.sh
+
+How to installed Arduino IDE 1.6.3 on the Raspbian with Nail Duino ? 
+
+pi@openmake ~ $ sudo sh nail_duino_update.sh
