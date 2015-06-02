@@ -6,7 +6,8 @@ sudo sed -i "/-L ttyAMA0 115200 vt100/s/T0/#T0/" /etc/inittab
 
 sudo echo 'KERNEL=="ttyAMA0", SYMLINK+="ttyS0",GROUP="dialout",MODE:=0666' >> /etc/udev/rules.d/85-paperduinopi.rules
 
-sudo apt-get update; sudo apt-get upgrade -y
+sudo apt-get update
+#sudo apt-get upgrade -y
 
 wget http://rasplay.org/rpi/m_duino/avrdude_5.10-4_armhf.deb
 
