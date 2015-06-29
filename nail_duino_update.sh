@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.org
+sudo cp /etc/apt/preferences /etc/apt/preferences.org
 
 sudo sed -i '$a\# Source repository to add' /etc/apt/sources.list
 
@@ -38,6 +40,11 @@ cd /usr/share/arduino/hardware/arduino/avr
 sudo rm programmers.txt
 
 sudo wget http://rasplay.org/rpi/m_duino/nail_duino/programmers.txt
+
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.nailduino
+sudo mv /etc/apt/preferences /etc/apt/preferences.nailduino
+sudo mv /etc/apt/sources.list.org /etc/apt/sources.list
+sudo mv /etc/apt/preferences.org /etc/apt/preferences
 
 echo "All Done."
 echo 'Thax For Nail Duino on the Raspberrypi'
