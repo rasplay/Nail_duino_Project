@@ -4,9 +4,9 @@ Nail duino is upload arduino uno bootloader through the raspberry-pi.
 
 ![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg)
 
-![Alt Text](http://i2.wp.com/www.rasplay.org/wp-content/uploads/nail_duino_31.jpg)
+![Alt Text](www.rasplay.org/wp-content/uploads/nail_duino_31.jpg)
 
-![Alt Text](http://i2.wp.com/www.rasplay.org/wp-content/uploads/nail_duino_61.jpg)
+![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_61.jpg)
 
 <p>1) nail duino is have arduino uno all gpio pin and tiny smd atmega328p.</p>
 <p>2) nail duino power is used  that 3.3V ~ 5.0V.</p>
