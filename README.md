@@ -4,7 +4,7 @@ Nail duino is upload arduino uno bootloader through the raspberry-pi.
 
 ![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg)
 
-![Alt Text](www.rasplay.org/wp-content/uploads/nail_duino_31.jpg)
+![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_31.jpg)
 
 ![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_61.jpg)
 
