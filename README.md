@@ -11,7 +11,7 @@
 
 <img src="https://github.com/rasplay/Nail_duino_Project/blob/master/IMG/nail_duino.jpg" width="1200">
 
-[<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_61.jpg" width="500">](https://github.com/rasplay/Nail_duino_Project/blob/master/nail_duino_case.zip)
+[<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_61.jpg" width="300">](https://github.com/rasplay/Nail_duino_Project/blob/master/nail_duino_case.zip)
 
 [![ScreenShot](http://www.rasplay.org/wp-content/uploads/25.jpg)](https://www.youtube.com/watch?v=vQyZlNaWGlg)
 
