@@ -2,6 +2,8 @@
 Nail Duino is tiny type Arduino Uno compatible.<p>
 Nail duino is upload arduino uno bootloader through the raspberry-pi. 
 
+<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg" width="650">
+
 ![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg)
 
 ![Alt Text](http://www.rasplay.org/wp-content/uploads/nail_duino_31.jpg)
