@@ -17,6 +17,8 @@
 
 [![ScreenShot](http://www.rasplay.org/wp-content/uploads/25.jpg)](https://www.youtube.com/watch?v=vQyZlNaWGlg)
 
+### How to Nail Duino Setup on the Raspbian ? 
+
 `pi@openmake ~ $ git clone https://github.com/rasplay/nail_duino`
 
 `pi@openmake ~ $ cd nail_duino`
