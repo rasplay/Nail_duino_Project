@@ -9,13 +9,7 @@
 4) nail duino can is used with connect on the various OS that microsoft window , linux , mac-osx, raspberrypi.
 ```
 
-<img src="https://github.com/rasplay/Nail_duino_Project/blob/master/IMG/nail_duino.jpg" width="800">
-
-
-
-<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg" width="500">
-
-<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_31.jpg" width="500">
+<img src="https://github.com/rasplay/Nail_duino_Project/blob/master/IMG/nail_duino.jpg" width="1200">
 
 [<img src="http://www.rasplay.org/wp-content/uploads/nail_duino_61.jpg" width="500">](https://github.com/rasplay/Nail_duino_Project/blob/master/nail_duino_case.zip)
 
