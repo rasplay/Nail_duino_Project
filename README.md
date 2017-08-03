@@ -8,6 +8,11 @@
 3) nail duino connect direct on the brad-board .
 4) nail duino can is used with connect on the various OS that microsoft window , linux , mac-osx, raspberrypi.
 ```
+
+<img src="https://github.com/rasplay/Nail_duino_Project/blob/master/IMG/nail_duino.jpg" width="800">
+
+
+
 <img src="http://www.rasplay.org/wp-content/uploads/nail_duino_1.jpg" width="500">
 
 <img src="http://www.rasplay.org/wp-content/uploads/nail_duino_31.jpg" width="500">
