@@ -1,0 +1,44 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\m_arduino_1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "M_ARDUINO_1.NET")
+    (OTHER_Netlist_File2 "M_ARDUINO_1.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "0orPcadnlt.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\m_arduino_1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\m_arduino_1.dsn")
+      (Path "Design Resources" ".\m_arduino_1.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\m_arduino_1.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 264"))
+      (Tab 0)))
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,198 @@
+P-CAD Online DRC Error Log                                  M_ARDUINO.pcb
+
+======================================================================
+
+OnlineDRC.ERR.txt:
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+Error 1 -- Clearance Violation between:
+   * Pad J5-1 at (2795.3,2753.2) mils [Top layer]
+   * Line at (2767.7,2736.2):(2795.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 2 -- Clearance Violation between:
+   * Pad J5-1 at (2795.3,2753.2) mils [Top layer]
+   * Line at (2677.2,2645.7):(2767.7,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 3 -- Clearance Violation between:
+   * Pad J5-1 at (2795.3,2753.2) mils [Top layer]
+   * Pad J3-1 at (2795.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 4 -- Clearance Violation between:
+   * Pad J5-1 at (2795.3,2753.2) mils [Bottom layer]
+   * Pad J3-1 at (2795.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 5 -- Clearance Violation between:
+   * Pad J5-3 at (2595.3,2753.2) mils [Top layer]
+   * Line at (2610.2,2721.3):(2595.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 6 -- Clearance Violation between:
+   * Pad J5-3 at (2595.3,2753.2) mils [Top layer]
+   * Line at (2610.2,2480.2):(2610.2,2721.3) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 7 -- Clearance Violation between:
+   * Pad J5-3 at (2595.3,2753.2) mils [Top layer]
+   * Pad J3-3 at (2595.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 8 -- Clearance Violation between:
+   * Pad J5-3 at (2595.3,2753.2) mils [Bottom layer]
+   * Pad J3-3 at (2595.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 9 -- Clearance Violation between:
+   * Pad J5-4 at (2495.3,2753.2) mils [Top layer]
+   * Line at (2495.3,2678.0):(2495.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 10 -- Clearance Violation between:
+   * Pad J5-4 at (2495.3,2753.2) mils [Top layer]
+   * Pad J3-4 at (2495.3,2736.2) mils [Top layer]
+
+----------------------------------------------------------------------
+
+09-Jan-15  09:23                                            Page    1
+
+P-CAD Online DRC Error Log                                  M_ARDUINO.pcb
+
+======================================================================
+
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 11 -- Clearance Violation between:
+   * Pad J5-4 at (2495.3,2753.2) mils [Bottom layer]
+   * Pad J3-4 at (2495.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 12 -- Clearance Violation between:
+   * Pad J5-6 at (2295.3,2753.2) mils [Top layer]
+   * Line at (2362.2,2669.3):(2295.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 13 -- Clearance Violation between:
+   * Pad J5-6 at (2295.3,2753.2) mils [Top layer]
+   * Pad J3-6 at (2295.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 14 -- Clearance Violation between:
+   * Pad J5-6 at (2295.3,2753.2) mils [Bottom layer]
+   * Pad J3-6 at (2295.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 15 -- Clearance Violation between:
+   * Pad J5-7 at (2195.3,2753.2) mils [Top layer]
+   * Line at (2195.3,2736.2):(2289.8,2641.7) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 16 -- Clearance Violation between:
+   * Pad J5-7 at (2195.3,2753.2) mils [Top layer]
+   * Pad J3-7 at (2195.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 17 -- Clearance Violation between:
+   * Pad J5-7 at (2195.3,2753.2) mils [Bottom layer]
+   * Pad J3-7 at (2195.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 18 -- Clearance Violation between:
+   * Pad J5-2 at (2695.3,2753.2) mils [Top layer]
+   * Line at (2653.5,2694.5):(2695.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+Error 19 -- Clearance Violation between:
+   * Pad J5-2 at (2695.3,2753.2) mils [Top layer]
+   * Pad J3-2 at (2695.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 20 -- Clearance Violation between:
+   * Pad J5-2 at (2695.3,2753.2) mils [Bottom layer]
+   * Pad J3-2 at (2695.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+Error 21 -- Clearance Violation between:
+   * Pad J5-5 at (2395.3,2753.2) mils [Top layer]
+   * Line at (2547.2,2584.3):(2395.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToLineClearance=0.200mm
+
+----------------------------------------------------------------------
+
+09-Jan-15  09:23                                            Page    2
+
+P-CAD Online DRC Error Log                                  M_ARDUINO.pcb
+
+======================================================================
+
+Error 22 -- Clearance Violation between:
+   * Pad J5-5 at (2395.3,2753.2) mils [Top layer]
+   * Pad J3-5 at (2395.3,2736.2) mils [Top layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Top}.PadToPadClearance=0.200mm
+Error 23 -- Clearance Violation between:
+   * Pad J5-5 at (2395.3,2753.2) mils [Bottom layer]
+   * Pad J3-5 at (2395.3,2736.2) mils [Bottom layer]
+   * Calculated Clearance: Touching.
+   * Rule: Layer{Bottom}.PadToPadClearance=0.200mm
+
+0 warning(s) detected.
+23 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+09-Jan-15  09:23                                            Page    3
+

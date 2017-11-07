@@ -1,0 +1,449 @@
+(PCB M_ARDUINO_1
+ (description
+  (timeStamp "2015 01 09 00 20 41")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Friday, January 09, 2015")
+  (document "D:\\YONG-DATA\\브레인넷\\14_12_19(M_ARDUINO)\\1.SCH\\M_ARDUINO_1.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "SW KEY-SPST"
+   (place SW1
+    (property 
+     ("PCB Footprint" "CTT-1135P1")
+     (timestamp 0000039A)
+     ("Source Package" "SW KEY-SPST")
+     (Value SMD))))
+  (component ATMEGA48_32P
+   (place U1
+    (property 
+     (ICA_PARTNUM "$$2149107$$ATMEGA48-20AU")
+     ("PCB Footprint" TQFP32)
+     (timestamp 0000009E)
+     ("Part Number" "TMP-15")
+     ("Source Package" ATMEGA48_32P)
+     (ICA_MFR_NAME "ATMEL CORP")
+     (Value "ATMEGA328P-AU"))))
+  (component "CAP NP"
+   (place C1
+    (property 
+     ("PCB Footprint" C1608)
+     (timestamp 000000EE)
+     ("Source Package" "CAP NP")
+     (Value "0.1uf(1608)")))
+   (place C4
+    (property 
+     ("PCB Footprint" C1608)
+     (timestamp 00000177)
+     ("Source Package" "CAP NP")
+     (Value "0.1uf(1608)"))))
+  (component "CAPACITOR POL/SM"
+   (place C2
+    (property 
+     ("PCB Footprint" C3216)
+     (timestamp 00000107)
+     ("Source Package" "CAPACITOR POL/SM")
+     (Value "10uf(TANT_A)"))))
+  (component CRYSTAL_1
+   (place Y1
+    (property 
+     ("PCB Footprint" CSTCE_V)
+     (timestamp 000012C5)
+     ("Source Package" CRYSTAL_1)
+     (Value XTAL16))))
+  (component LED_0
+   (place D1
+    (property 
+     ("PCB Footprint" LED1608)
+     (timestamp 0000029F)
+     ("Source Package" LED_0)
+     (Value "LED(1608)-red")))
+   (place D2
+    (property 
+     ("PCB Footprint" LED1608)
+     (timestamp 00000349)
+     ("Source Package" LED_0)
+     (Value "LED(1608)-green"))))
+  (component R
+   (place R1
+    (property 
+     ("PCB Footprint" R1608)
+     (timestamp 00000120)
+     ("Source Package" R)
+     (Value "1K(1608)")))
+   (place R2
+    (property 
+     ("PCB Footprint" R1608)
+     (timestamp 0000032F)
+     ("Source Package" R)
+     (Value "330(1608)")))
+   (place R3
+    (property 
+     ("PCB Footprint" R1608)
+     (timestamp 000003B4)
+     ("Source Package" R)
+     (Value "10K(1608)"))))
+  (component "HEADER 7"
+   (place J1
+    (property 
+     ("PCB Footprint" HEADER7)
+     (timestamp 000005EE)
+     ("Source Package" "HEADER 7")
+     (Value "HEADER 7")))
+   (place J2
+    (property 
+     ("PCB Footprint" HEADER7)
+     (timestamp 0000061C)
+     ("Source Package" "HEADER 7")
+     (Value "HEADER 7")))
+   (place J3
+    (property 
+     ("PCB Footprint" HEADER7)
+     (timestamp 0000064A)
+     ("Source Package" "HEADER 7")
+     (Value "HEADER 7")))
+   (place J4
+    (property 
+     ("PCB Footprint" HEADER7)
+     (timestamp 00000678)
+     ("Source Package" "HEADER 7")
+     (Value "HEADER 7")))))
+ (library
+  (image ATMEGA48_32P
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\MICROCONTROLLER.OLB))
+   (pin 999 12
+    (property 
+     (pinname PB0/PCINT0/CLKO/ICP1)
+     (pintype 1)))
+   (pin 999 13
+    (property 
+     (pinname PB1/PCINT1/OC1A)
+     (pintype 1)))
+   (pin 999 14
+    (property 
+     (pinname PB2/PCINT2/S\\S\\/OC1B)
+     (pintype 1)))
+   (pin 999 15
+    (property 
+     (pinname PB3/PCINT3/OC2A/MOSI)
+     (pintype 1)))
+   (pin 999 16
+    (property 
+     (pinname PB4/PCINT4/MISO)
+     (pintype 1)))
+   (pin 999 17
+    (property 
+     (pinname PB5/SCK/PCINT5)
+     (pintype 1)))
+   (pin 999 7
+    (property 
+     (pinname PB6/PCINT6/XTAL1/TOSC1)
+     (pintype 1)))
+   (pin 999 8
+    (property 
+     (pinname PB7/PCINT7/XTAL2/TOSC2)
+     (pintype 1)))
+   (pin 999 23
+    (property 
+     (pinname PC0/ADC0/PCINT8)
+     (pintype 1)))
+   (pin 999 24
+    (property 
+     (pinname PC1/ADC1/PCINT9)
+     (pintype 1)))
+   (pin 999 25
+    (property 
+     (pinname PC2/ADC2/PCINT10)
+     (pintype 1)))
+   (pin 999 26
+    (property 
+     (pinname PC3/ADC3/PCINT11)
+     (pintype 1)))
+   (pin 999 27
+    (property 
+     (pinname PC4/ADC4/SDA/PCINT12)
+     (pintype 1)))
+   (pin 999 28
+    (property 
+     (pinname PC5/ADC5/SCL/PCINT13)
+     (pintype 1)))
+   (pin 999 29
+    (property 
+     (pinname PC6/R\\E\\S\\E\\T\\/PCINT14)
+     (pintype 1)))
+   (pin 999 19
+    (property 
+     (pinname ADC6)
+     (pintype 0)))
+   (pin 999 22
+    (property 
+     (pinname ADC7)
+     (pintype 0)))
+   (pin 999 20
+    (property 
+     (pinname AREF)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 21
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 18
+    (property 
+     (pinname AVCC)
+     (pintype 7)))
+   (pin 999 4
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 6
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 30
+    (property 
+     (pinname PD0/RXD/PCINT16)
+     (pintype 1)))
+   (pin 999 31
+    (property 
+     (pinname PD1/TXD/PCINT17)
+     (pintype 1)))
+   (pin 999 32
+    (property 
+     (pinname PD2/INT0/PCINT18)
+     (pintype 1)))
+   (pin 999 1
+    (property 
+     (pinname PD3/PCINT19/OC2B/INT1)
+     (pintype 1)))
+   (pin 999 2
+    (property 
+     (pinname PD4/PCINT20/XCK/T0)
+     (pintype 1)))
+   (pin 999 9
+    (property 
+     (pinname PD5/PCINT21/OC0B/T1)
+     (pintype 1)))
+   (pin 999 10
+    (property 
+     (pinname PD6/PCINT22/OC0A/AIN0)
+     (pintype 1)))
+   (pin 999 11
+    (property 
+     (pinname PD7/PCINT23/AIN1)
+     (pintype 1))))
+  (image R
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "CAP NP"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "CAPACITOR POL/SM"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CRYSTAL_1
+   (property 
+    (sourcelib "D:\\YONG-DATA\\브레인넷\\14_12_19\\1.SCH\\M_ARDUINO.DSN"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image "HEADER 7"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4))))
+  (image LED_0
+   (property 
+    (sourcelib "D:\\YONG-DATA\\브레인넷\\14_12_19\\1.SCH\\M_ARDUINO.DSN"))
+   (pin 999 1
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image "SW KEY-SPST"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))))
+ (network
+  (net A0
+   (pins
+     U1-23 J3-1))
+  (net A1
+   (pins
+     U1-24 J3-2))
+  (net A2
+   (pins
+     U1-25 J3-3))
+  (net A3
+   (pins
+     U1-26 J3-4))
+  (net A4
+   (pins
+     U1-27 J3-5))
+  (net A5
+   (pins
+     U1-28 J3-6))
+  (net A6
+   (pins
+     U1-19 J3-7))
+  (net A7
+   (pins
+     U1-22 J4-1))
+  (net D10
+   (pins
+     U1-14 J1-5))
+  (net D2
+   (pins
+     U1-32 J2-3))
+  (net D3
+   (pins
+     U1-1 J2-4))
+  (net D4
+   (pins
+     U1-2 J2-5))
+  (net D5
+   (pins
+     U1-9 J4-2))
+  (net D6
+   (pins
+     U1-10 J4-3))
+  (net D7
+   (pins
+     U1-11 J4-4))
+  (net D8
+   (pins
+     U1-12 J4-5))
+  (net D9
+   (pins
+     U1-13 J4-6))
+  (net GND_POWER
+    (property 
+     (nettype S))
+   (pins
+     U1-3 U1-5 U1-21 C1-2 C2-2 C4-1 D1-2 D2-2 SW1-1
+     J1-7 J2-7 J4-7 Y1-3))
+  (net MISO
+   (pins
+     U1-16 J1-4))
+  (net MOSI
+   (pins
+     U1-15 J1-3))
+  (net N00381
+   (pins
+     U1-7 Y1-1))
+  (net N00396
+   (pins
+     U1-8 Y1-2))
+  (net N00553
+   (pins
+     U1-20 C1-1))
+  (net N00726
+   (pins
+     R1-2 D1-1))
+  (net N00851
+   (pins
+     R2-1 D2-1))
+  (net RESET
+   (pins
+     U1-29 C4-2 SW1-2 R3-2 J1-1))
+  (net RXI
+   (pins
+     U1-30 J2-1))
+  (net SCK
+   (pins
+     U1-17 R2-2 J1-2))
+  (net TXO
+   (pins
+     U1-31 J2-2))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     U1-18 U1-4 U1-6 C2-1 R1-1 R3-1 J1-6 J2-6)))
+)

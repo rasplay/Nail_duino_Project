@@ -1,0 +1,35 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\m_arduino.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\m_arduino.dsn")
+      (Path "Design Resources" ".\m_arduino.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\m_arduino.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 482"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1632 25 545")
+        (Scroll "-294 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\YONG-DATA\브레인넷\14_12_19(M_ARDUINO)\1.SCH\M_ARDUINO.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
